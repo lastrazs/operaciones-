@@ -1,0 +1,16 @@
+{
+  "name": "LogiDistribución S.A.S. (escenario desbalanceado: Medellín ofrece 450)",
+  "cost_unit": "miles de COP por unidad",
+  "dummy_cost": 0,
+  "transport": {
+    "origins": ["Medellín", "Bucaramanga", "Manizales"],
+    "destinations": ["Bogotá", "Cali", "Barranquilla", "Pereira"],
+    "costs": [
+      [8, 6, 10, 4],
+      [5, 12, 6, 9],
+      [9, 7, 13, 3]
+    ],
+    "supply": [450, 250, 400],
+    "demand": [300, 250, 200, 250]
+  }
+}
